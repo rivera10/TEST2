@@ -1,0 +1,20 @@
+= Test Doc
+:docinfo:
+:keywords: Test
+:description: Test doc
+:nofooter:
+:icons: font
+:toclevels: 2
+:imagesdir: img
+:toc: left
+:source-highlighter: coderay
+:coderay-linenums-mode: table
+:sectnums:
+:sectlinks:
+
+This is a test page for documentation.
+
+== Test TOC
+:leveloffset: +2
+include::a.adoc[]
+:leveloffset: -2
