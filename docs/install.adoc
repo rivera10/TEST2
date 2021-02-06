@@ -1,0 +1,46 @@
+# Installing TransPi
+### Requirements
+
+- System: Linux OS
+
+- Data type: Paired-end reads
+
+    Example: `IndA_R1.fastq.gz`, `IndA_R2.fastq.gz`
+
+    NOTES:
+    - Make sure reads end with `_R1.fastq.gz` and `_R2.fastq.gz`
+
+    - Multiple individuals can be run at the same time.
+
+
+### Downloading TransPi
+
+1- Clone the repository
+
+```
+
+git clone https://github.com/rivera10/TransPi.git
+
+```
+
+2- Move to the TransPi directory
+
+```
+
+cd TransPi
+
+```
+
+### Installation and configuration
+
+1- The precheck run needs a `PATH` as an argument for running and installing (locally) all the databases and programs the pipeline needs.
+
+```
+
+bash precheck_TransPi.sh /home/ubuntu/TransPi
+
+```
+
+**NOTE:**
+
+- This process may take a while depending on the options you select. Step that takes longer is downloading (if desired) the entire metazoan proteins from UniProt (6Gb). Other processes and databases are relatively fast depending on internet connection.   

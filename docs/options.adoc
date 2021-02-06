@@ -1,0 +1,10 @@
+= options doc
+
+Test of a doc
+
+[source,shell]
+----
+for x in `seq 1 10`;do
+    echo $x
+done
+----
