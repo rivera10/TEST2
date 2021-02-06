@@ -1,4 +1,4 @@
-= Test Doc
+= TransPi Manual
 :docinfo:
 :keywords: Test
 :description: Test doc
@@ -12,9 +12,24 @@
 :sectnums:
 :sectlinks:
 
-This is a test page for documentation.
+This page explains how to use TransPi. From its installation to some examples.
 
-== Test TOC
+== Intalling TransPi
 :leveloffset: +2
-include::a.adoc[]
+include::install.adoc[]
+:leveloffset: -2
+
+== Running TransPi
+:leveloffset: +2
+include::run.adoc[]
+:leveloffset: -2
+
+== Additional options
+:leveloffset: +2
+include::options.adoc[]
+:leveloffset: -2
+
+== Extra information
+:leveloffset: +2
+include::extra.adoc[]
 :leveloffset: -2
