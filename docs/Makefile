@@ -1,2 +1,2 @@
 all:
-	asciidoctor -D . index.adoc
+	/opt/homebrew/bin/asciidoctor -D . index.adoc
